@@ -1,0 +1,210 @@
+== CryptoNote v 2.0
+
+=== Nicolas van Saberhagen
+
+==== October 17, 2013
+
+==== Translated by Min-seo, Park (박민서)
+
+
+
+=== 1. Introduction 
+
+
+=== 2. Bitcoin drawbacks and some possible solutions
+
+==== 2.1 Traceability of transactions
+
+
+
+==== 2.2 The proof-of-work function
+
+
+
+==== 2.3 Irregular emission
+
+
+
+==== 2.4 Hardcoded constants
+
+
+
+==== 2.5 Bulky scripts 
+
+
+
+=== 3. The CryptoNote Technology
+
+
+
+=== 4. Untraceable Transactions
+
+
+
+==== 4.1 Literature review 
+
+
+
+==== 4.2 Definitions
+
+===== 4.2.1 Elliptic curve parameters
+
+
+===== 4.2.2 Terminology
+
+
+
+==== 4.3 Unlinkable payments
+
+
+
+==== 4.4 One-time ring signatures
+
+
+
+==== 4.5 Standard CryptoNote transaction
+
+
+
+=== 5. Egalitarian Proof-of-work
+
+
+
+==== 5.1 Related works 
+
+
+
+==== 5.2 The proposed algorithm
+
+
+
+=== 6. Further advantages
+
+==== 6.1 Smooth emission
+
+
+
+==== 6.2 Adjustable parameters
+
+===== 6.2.1 Difficulty
+
+
+
+===== 6.2.2 Size limits 
+
+
+
+===== 6.2.3 Excess size penalty
+
+
+
+==== 6.3 Transaction scripts
+
+
+
+=== 7. Conclusion
+
+
+
+=== A. Security
+
+
+
+==== Linkability
+
+
+
+==== Exculpability
+
+
+
+==== Unforgeability
+
+
+
+==== Anonymity
+
+
+
+==== Notes on the hash function Hp
+
+
+
+=== References
+
+[1] http://bitcoin.org.
+
+[2] https://en.bitcoin.it/wiki/Category:Mixing Services.
+
+[3] http://blog.ezyang.com/2012/07/secure-multiparty-bitcoin-anonymization.
+
+[4] https://bitcointalk.org/index.php?topic=279249.0.
+
+[5] http://msrvideo.vo.msecnd.net/rmcvideos/192058/dl/192058.pdf.
+
+[6] https://github.com/bitcoin/bips/blob/master/bip-0034.mediawiki#Specification.
+
+[7] https://github.com/bitcoin/bips/blob/master/bip-0016.mediawiki#Backwards Compatibility.
+
+[8] https://en.bitcoin.it/wiki/Mining hardware comparison.
+
+[9] https://github.com/bitcoin/bips/blob/master/bip-0050.mediawiki.
+
+[10] http://luke.dashjr.org/programs/bitcoin/files/charts/branches.html.
+
+[11] https://bitcointalk.org/index.php?topic=196259.0.
+
+[12] https://en.bitcoin.it/wiki/Contracts.
+
+[13] https://en.bitcoin.it/wiki/Script.
+
+[14] http://litecoin.org.
+
+[15] Mart ́ın Abadi, Michael Burrows, and Ted Wobber. Moderately hard, memory-bound func- tions. In NDSS, 2003.
+
+[16] Ben Adida, Susan Hohenberger, and Ronald L. Rivest. Ad-hoc-group signatures from hi- jacked keypairs. In in DIMACS Workshop on Theft in E-Commerce, 2005.
+
+[17] Man Ho Au, Sherman S. M. Chow, Willy Susilo, and Patrick P. Tsang. Short linkable ring signatures revisited. In EuroPKI, pages 101–115, 2006.
+
+[18] Daniel J. Bernstein, Niels Duif, Tanja Lange, Peter Schwabe, and Bo-Yin Yang. High-speed high-security signatures. J. Cryptographic Engineering, 2(2):77–89, 2012.
+
+[19] David Chaum and Eug`ene van Heyst. Group signatures. In EUROCRYPT, pages 257–265, 1991.
+
+[20] Fabien Coelho. Exponential memory-bound functions for proof of work protocols. IACR Cryptology ePrint Archive, 2005:356, 2005.
+
+[21] Ronald Cramer, Ivan Damg ̊ard, and Berry Schoenmakers. Proofs of partial knowledge and simplified design of witness hiding protocols. In CRYPTO, pages 174–187, 1994.
+
+[22] Cynthia Dwork, Andrew Goldberg, and Moni Naor. On memory-bound functions for fighting spam. In CRYPTO, pages 426–444, 2003.
+
+[23] Eiichiro Fujisaki. Sub-linear size traceable ring signatures without random oracles. In CT- RSA, pages 393–415, 2011.
+
+[24] Eiichiro Fujisaki and Koutarou Suzuki. Traceable ring signature. In Public Key Cryptogra- phy, pages 181–200, 2007.
+
+[25] Jezz Garzik. Peer review of “quantitative analysis of the full bitcoin transaction graph”. https://gist.github.com/3901921, 2012.
+
+[26] Joseph K. Liu, Victor K. Wei, and Duncan S. Wong. Linkable spontaneous anonymous group signature for ad hoc groups (extended abstract). In ACISP, pages 325–335, 2004.
+
+[27] Joseph K. Liu and Duncan S. Wong. Linkable ring signatures: Security models and new schemes. In ICCSA (2), pages 614–623, 2005.
+
+[28] Ian Miers, Christina Garman, Matthew Green, and Aviel D. Rubin. Zerocoin: Anonymous distributed e-cash from bitcoin. In IEEE Symposium on Security and Privacy, pages 397– 411, 2013.
+
+[29] Micha Ober, Stefan Katzenbeisser, and Kay Hamacher. Structure and anonymity of the bitcoin transaction graph. Future internet, 5(2):237–250, 2013.
+
+[30] Tatsuaki Okamoto and Kazuo Ohta. Universal electronic cash. In CRYPTO, pages 324–337, 1991.
+
+[31] Marc Santamaria Ortega. The bitcoin transaction graph — anonymity. Master’s thesis, Universitat Oberta de Catalunya, June 2013.
+
+[32] Colin Percival. Stronger key derivation via sequential memory-hard functions. Presented at BSDCan’09, May 2009.
+
+[33] Fergal Reid and Martin Harrigan. An analysis of anonymity in the bitcoin system. CoRR, abs/1107.4524, 2011.
+
+[34] Ronald L. Rivest, Adi Shamir, and Yael Tauman. How to leak a secret. In ASIACRYPT, pages 552–565, 2001.
+
+[35] Dorit Ron and Adi Shamir. Quantitative analysis of the full bitcoin transaction graph. IACR Cryptology ePrint Archive, 2012:584, 2012.
+
+[36] Meni Rosenfeld. Analysis of hashrate-based double-spending. 2012.
+
+[37] Maciej Ulas. Rational points on certain hyperelliptic curves over finite fields. Bulletin of
+the Polish Academy of Sciences. Mathematics, 55(2):97–104, 2007.
+
+[38] Qianhong Wu, Willy Susilo, Yi Mu, and Fangguo Zhang. Ad hoc group signatures. In IWSEC, pages 120–135, 2006.
